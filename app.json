@@ -1,0 +1,48 @@
+{
+  "expo": {"plugins": [
+  [
+    "@react-native-voice/voice",
+    {
+      "microphonePermission": "Allow Voice to Text Tutorial to access the microphone",
+      "speechRecognitionPermission": "Allow Voice to Text Tutorial to securely recognize user speech"
+    }
+  ]
+],
+    "name": "live",
+    "slug": "live",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.medahny12345.live"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.medahny12345.live"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c1a3c14-37cd-4f28-9575-af8dabab2428"
+      }
+    }
+  }
+}
